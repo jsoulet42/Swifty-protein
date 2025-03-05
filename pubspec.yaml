@@ -17,6 +17,7 @@ dependencies:
   firebase_auth: ^5.5.1
   google_sign_in: ^6.2.2
   cupertino_icons: ^1.0.8
+  http: ^1.3.0
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +29,4 @@ flutter:
 
   assets:
     - assets/default_avatar.jpg # !!! IMPORTANT : AJOUTEZ/ADAPTEZ VOS ASSETS ICI.
+    - lib/ligands.txt
