@@ -1,42 +1,31 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../utils/logger.dart';
+import '../models/ligand_detail.dart';
 
 class RcsbApiService {
-  /// Récupère les détails d'un ligand via l'endpoint "chemcomp" de la Data API de RCSB.
-  /// Le code du ligand est converti en majuscules pour respecter le format attendu.
+  /// Récupère les détails du ligand et son identifiant PDB complet
   static Future<LigandDetail> fetchLigandDetailFromChemcomp(
     String ligandCode,
   ) async {
     final code = ligandCode.toUpperCase();
-    Logger.log(
-      "Appel de l'API RCSB pour récupérer le chemcomp du ligand: $code",
-      tag: "RCSB_API",
-    );
+    Logger.log("Appel API RCSB pour le ligand: $code", tag: "RCSB_API");
+
+    // URL pour obtenir les détails du ligand via l'API RCSB
     final url = 'https://data.rcsb.org/rest/v1/core/chemcomp/$code';
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
-      Logger.log("Réponse reçue pour le ligand: $code", tag: "RCSB_API");
       final jsonData = json.decode(response.body);
-      Logger.log("Données du ligand: ${jsonData.toString()}", tag: "RCSB_API");
-
-      // Extraction des informations depuis la clé "chem_comp"
       final chemComp = jsonData["chem_comp"];
-      final name =
-          chemComp != null && chemComp["name"] != null
-              ? chemComp["name"]
-              : "Nom inconnu";
-      final formula =
-          chemComp != null && chemComp["formula"] != null
-              ? chemComp["formula"]
-              : "Formule inconnue";
+      final name = chemComp?["name"] ?? "Nom inconnu";
+      final formula = chemComp?["formula"] ?? "Formule inconnue";
 
       return LigandDetail(
         ligandCode: code,
-        chemCompId: code,
-        name: name.toString(),
-        formula: formula.toString(),
+        name: name,
+        formula: formula,
+        chemCompId: chemComp?["id"] ?? "ID inconnu",
       );
     } else {
       Logger.log(
@@ -48,19 +37,30 @@ class RcsbApiService {
       );
     }
   }
-}
 
-/// Classe représentant les détails d'un ligand.
-class LigandDetail {
-  final String ligandCode; // Par exemple "HEM"
-  final String chemCompId; // Identique au ligandCode
-  final String name; // Nom complet du ligand
-  final String formula; // Formule ou description du ligand
+  /// Télécharge le fichier PDB du ligand en utilisant son ID PDB
+  static Future<String> fetchIdealSdfFile(String ligandCode) async {
+    final code = ligandCode.toUpperCase();
+    final url = 'https://files.rcsb.org/ligands/download/${code}_ideal.sdf';
+    Logger.log("🔍 Téléchargement du fichier SDF idéal: $url", tag: "RCSB_API");
 
-  LigandDetail({
-    required this.ligandCode,
-    required this.chemCompId,
-    required this.name,
-    required this.formula,
-  });
+    final response = await http.get(Uri.parse(url));
+
+    if (response.statusCode == 200) {
+      Logger.log(
+        "Fichier SDF téléchargé avec succès, taille : ${response.body.length} octets",
+        tag: "RCSB_API",
+      );
+      Logger.log(
+        "Contenu du fichier SDF : ${response.body.substring(0, 100)}...",
+      ); // Affiche les 100 premiers caractères du fichier
+      return response.body; // Retourne le contenu du fichier SDF
+    } else {
+      Logger.log(
+        "Erreur HTTP ${response.statusCode} lors du téléchargement du fichier SDF",
+        tag: "RCSB_API",
+      );
+      throw Exception('Erreur lors du téléchargement du fichier SDF');
+    }
+  }
 }

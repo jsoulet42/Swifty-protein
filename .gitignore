@@ -47,4 +47,6 @@ app.*.map.json
 # !!! IMPORTANT : NE PAS POUVER LE FICHIER google-services.json
 # Ce fichier contient les données de configuration Firebase et est sensible.
 android/app/google-services.json
+
+# Exclure les fichiers Windows "Zone.Identifier"
 *Zone.Identifier

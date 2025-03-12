@@ -18,6 +18,28 @@ dependencies:
   google_sign_in: ^6.2.2
   cupertino_icons: ^1.0.8
   http: ^1.3.0
+  vector_math: ^2.1.4
+  impeller: ^0.0.1
+  flutter_inappwebview: ^6.1.5
+  path_provider: ^2.1.5
+  shimmer: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+  local_auth: ^2.3.0
+  share_plus: ^10.1.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/imagebackG.png"
+  adaptive_icon_background: "assets/imagebackG.png"
+  adaptive_icon_foreground: "assets/imagebackG.png"
+
+flutter_native_splash:
+  color: "#000000" # Couleur de fond (ici noir)
+  image: assets/imagebackG.png # Image de fond
+  android: true
+  ios: true
 
 dev_dependencies:
   flutter_test:
@@ -29,4 +51,7 @@ flutter:
 
   assets:
     - assets/default_avatar.jpg # !!! IMPORTANT : AJOUTEZ/ADAPTEZ VOS ASSETS ICI.
+    - assets/imagebackG.png
     - lib/ligands.txt
+    - assets/sphere.obj
+    - assets/line.obj

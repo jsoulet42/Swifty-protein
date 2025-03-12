@@ -1,0 +1,2381 @@
+==== ./lib/ligands.txt ====
+001
+011
+031
+041
+04G
+083
+0AF
+0DS
+0DX
+0E5
+0EA
+0J0
+0JV
+0L8
+0MC
+0MD
+0RU
+0RY
+0RZ
+0S0
+0T6
+0T7
+0Z9
+10R
+10S
+10U
+11O
+11U
+12I
+12P
+12U
+13M
+13R
+13S
+13U
+140
+147
+15F
+15P
+16A
+16G
+18M
+18Q
+196
+1B0
+1C5
+1CO
+1CY
+1E2
+1H2
+1H3
+1HP
+1KT
+1KU
+1KY
+1KZ
+1MA
+1MV
+1PE
+1PG
+1QV
+1SZ
+1UD
+1WJ
+1WK
+1YO
+200
+210
+22J
+22M
+233
+234
+23I
+244
+272
+27E
+27G
+27H
+27J
+27K
+27L
+27M
+27N
+29N
+29O
+2AN
+2F8
+2HP
+2MG
+2MO
+2PE
+2RY
+2TL
+2V4
+2WL
+2WQ
+2WR
+2XE
+2XG
+2XH
+2XO
+2XR
+2YZ
+30L
+30U
+32H
+32J
+338
+369
+36Y
+372
+37V
+38D
+397
+398
+3A8
+3AW
+3BR
+3DG
+3DR
+3E4
+3EL
+3FG
+3GY
+3GZ
+3H0
+3H2
+3HA
+3HM
+3HU
+3JP
+3JQ
+3JR
+3MY
+3NM
+3OM
+3PG
+3QZ
+3SN
+3SX
+3TI
+3TR
+3TS
+3UH
+3XU
+40F
+40K
+418
+429
+42H
+42M
+43F
+442
+444
+44B
+458
+459
+45U
+46U
+480
+482
+49U
+4AA
+4AW
+4D8
+4DB
+4FC
+4FW
+4HM
+4IN
+4KV
+4MQ
+4NA
+4NL
+4TC
+4TX
+4UX
+4UY
+4UZ
+4V2
+4V3
+4V5
+4VO
+4XE
+4XF
+50U
+523
+52P
+555
+5AL
+5B5
+5B7
+5B8
+5BR
+5CD
+5FB
+5FW
+5GP
+5KH
+5MB
+5MC
+5MU
+5NU
+5OB
+5PG
+5UC
+5UD
+5YI
+62D
+689
+697
+6AP
+6NA
+6RG
+6UA
+6W2
+789
+795
+797
+7AP
+7DG
+7HP
+7MG
+7YG
+833
+834
+870
+880
+889
+893
+8HG
+8K6
+8LR
+8OG
+941
+965
+9DG
+9LI
+9OH
+9PR
+A1E
+A23
+A2E
+A2G
+A2M
+A37
+A3P
+A48
+A74
+A8B
+A8M
+A8N
+AAC
+AAM
+AB1
+ABA
+ABN
+ABU
+AC6
+AC9
+ACA
+ACE
+ACH
+ACP
+ACT
+ACY
+AD4
+ADE
+ADN
+ADP
+ADV
+ADX
+AEJ
+AEK
+AGA
+AGP
+AGS
+AH0
+AHB
+AHU
+AIH
+AIJ
+AIT
+AIU
+AJM
+AKG
+ALC
+ALE
+ALF
+ALO
+ALS
+ALY
+AMH
+AMP
+ANC
+ANN
+ANP
+AOM
+AON
+APC
+APG
+APR
+ARA
+ARG
+ARL
+ASC
+ASD
+AT1
+ATP
+AU
+AUK
+AV2
+AVX
+AYX
+AZG
+AZI
+AZS
+AZZ
+B12
+B3A
+B3D
+B3E
+B3Q
+B49
+BA
+BAL
+BAM
+BBU
+BBX
+BBY
+BCL
+BCP
+BCR
+BCT
+BE2
+BEF
+BEN
+BER
+BG6
+BG8
+BGC
+BGL
+BGU
+BHG
+BHL
+BHM
+BM6
+BMA
+BMC
+BME
+BMM
+BMT
+BNS
+BNZ
+BO3
+BOA
+BOG
+BPH
+BR
+BS1
+BS2
+BTD
+BTN
+BU3
+BUA
+BV1
+BV2
+BV3
+BV4
+BVD
+BXY
+BZI
+BZX
+C03
+C09
+C1O
+C1Q
+C2O
+C3F
+C6Q
+C7J
+C7L
+C7U
+C7W
+C8E
+C8F
+C8M
+C8P
+CA
+CAA
+CAC
+CAF
+CAP
+CAT
+CB3
+CBE
+CBJ
+CCN
+CCS
+CD
+CDK
+CDL
+CF2
+CF4
+CFP
+CH6
+CHO
+CHP
+CI2
+CIS
+CIT
+CJZ
+CL
+CLA
+CLR
+CM3
+CM4
+CME
+CMO
+CMP
+CN2
+CO
+CO2
+CO3
+COA
+COI
+CP6
+CPC
+CPJ
+CPK
+CPS
+CPT
+CS
+CSD
+CSO
+CSS
+CSX
+CTN
+CTO
+CTP
+CU
+CU1
+CUA
+CUR
+CXM
+CXS
+CYN
+CYS
+CZA
+D12
+D4P
+D75
+DAB
+DAH
+DAL
+DAO
+DBB
+DCQ
+DCS
+DDE
+DDT
+DG2
+DGD
+DGL
+DHF
+DHI
+DIB
+DIP
+DIX
+DIY
+DLS
+DMB
+DMS
+DMU
+DP8
+DPN
+DPP
+DPR
+DR9
+DRH
+DRJ
+DSE
+DSN
+DST
+DTB
+DTT
+DTU
+DTV
+DTY
+DUZ
+DVC
+DW2
+DXC
+DXL
+DXO
+E10
+E12
+E20
+E4D
+EAA
+EDO
+EED
+EES
+EI1
+EMB
+EN5
+ENF
+ENO
+ENX
+EOH
+EPE
+EPH
+EPU
+ERE
+ESA
+EST
+ETC
+ETM
+EU
+EU3
+F
+F19
+F3S
+F6F
+F9F
+FA7
+FAD
+FAE
+FBP
+FBR
+FCO
+FDA
+FE
+FE2
+FEL
+FEO
+FER
+FES
+FFA
+FFO
+FGA
+FHM
+FHO
+FK1
+FLC
+FLI
+FLN
+FLV
+FMN
+FMP
+FMT
+FO5
+FON
+FOO
+FP1
+FSM
+FT1
+FT2
+FTY
+FU2
+FUC
+FUL
+FUM
+G05
+G1P
+G2F
+G3A
+G3H
+G3P
+G52
+G55
+G61
+G64
+G79
+G7G
+G89
+GA
+GA2
+GAL
+GCP
+GCQ
+GCS
+GDL
+GDP
+GDU
+GEN
+GGA
+GGD
+GHP
+GKD
+GKE
+GL0
+GL8
+GLA
+GLC
+GLL
+GLO
+GLY
+GM2
+GMP
+GND
+GNH
+GNP
+GNT
+GOL
+GP1
+GP4
+GPI
+GRN
+GS1
+GSH
+GSP
+GST
+GTP
+GTX
+GUN
+GXL
+H2S
+H2U
+H4B
+H64
+HAB
+HAR
+HB1
+HBA
+HBI
+HC2
+HC3
+HC7
+HC9
+HCL
+HEA
+HEC
+HED
+HEM
+HEX
+HFT
+HG
+HG7
+HGM
+HIS
+HJ2
+HJ3
+HKA
+HM6
+HMG
+HOA
+HOM
+HOS
+HPE
+HQQ
+HQU
+HR7
+HRD
+HSX
+HT7
+HTD
+HTH
+HTO
+HTQ
+HTY
+HUP
+HUX
+HXA
+HXY
+HZ3
+I13
+I3A
+I46
+I63
+ID2
+IFP
+IGP
+IH5
+IHD
+ILB
+ILC
+ILE
+ILF
+ILH
+IMD
+IMI
+IMN
+IMP
+IMT
+IMX
+IN8
+IN9
+INH
+INI
+IOD
+IOG
+IOK
+IPA
+IPE
+IPH
+IPL
+IPR
+IPX
+IQX
+IRG
+ISL
+ISP
+ITE
+ITL
+ITT
+IUM
+IYR
+J35
+J43
+J53
+J5L
+J77
+J80
+JB1
+JC1
+JFK
+JZA
+JZD
+JZE
+K
+K7J
+KCX
+KDG
+KDO
+KH1
+KIR
+KN2
+KPG
+KWT
+L04
+L07
+L09
+L71
+L7S
+L9Q
+L9R
+LA
+LAC
+LAE
+LDA
+LDP
+LEA
+LFN
+LG1
+LH3
+LH4
+LHG
+LI
+LK1
+LK2
+LL3
+LL4
+LL5
+LMG
+LMR
+LMT
+LN1
+LOC
+LPH
+LRG
+LUM
+LUV
+LXB
+LXZ
+LY9
+LYA
+LYS
+LZ0
+M12
+M2G
+M3R
+M49
+M5Z
+M8E
+M8M
+MA1
+MA2
+MA3
+MA4
+MAA
+MAG
+MAL
+MAN
+MAU
+MBG
+MBN
+MBT
+MDC
+MDF
+MDN
+ME3
+MEC
+MER
+MES
+MF4
+MF5
+MFB
+MFU
+MG
+MGF
+MGR
+MHB
+MHI
+MHO
+MI2
+MIB
+MLA
+MLC
+MLE
+MLI
+MLR
+MLT
+MLU
+MLY
+MMA
+MMC
+MMV
+MN
+MN1
+MN2
+MN7
+MN8
+MO7
+MOB
+MP4
+MPD
+MPV
+MRD
+MSE
+MSR
+MT6
+MTB
+MU0
+MU1
+MUI
+MUT
+MVA
+MVC
+MYA
+MYP
+MYR
+MYS
+N09
+N1L
+N2C
+N4B
+N6M
+NA
+NAB
+NAD
+NAG
+NAI
+NAJ
+NAP
+NCO
+NCS
+NCY
+NDG
+NDP
+NEP
+NEQ
+NFZ
+NGA
+NGZ
+NH2
+NH4
+NI
+NIO
+NLC
+NLE
+NLG
+NLX
+NO
+NO3
+NOG
+NPJ
+NPM
+NPO
+NRQ
+NSI
+NVA
+NX1
+NX2
+NX3
+NX4
+NX5
+NXV
+NXW
+NXY
+NYB
+O
+O11
+O75
+O8M
+OBH
+OCA
+OCS
+OCT
+ODE
+ODT
+OEC
+OEF
+OH
+OLA
+OLC
+OMC
+OMG
+OMO
+OMX
+OMY
+OMZ
+ONL
+OPC
+ORD
+ORN
+ORO
+ORX
+OXY
+OZ2
+P01
+P0E
+P16
+P1T
+P2P
+P36
+P42
+P4O
+P4P
+P6G
+P6L
+P8H
+P9B
+PAF
+PAJ
+PAL
+PAM
+PAU
+PAZ
+PB
+PB1
+PBS
+PBX
+PC1
+PCA
+PCP
+PCR
+PCT
+PD
+PDC
+PDX
+PE2
+PE3
+PE5
+PE6
+PE8
+PEE
+PEF
+PEG
+PEO
+PEP
+PER
+PEU
+PFA
+PFB
+PFF
+PFU
+PG4
+PGD
+PGE
+PGO
+PHA
+PHE
+PHK
+PHO
+PIA
+PII
+PIK
+PIQ
+PIZ
+PL9
+PLC
+PLG
+PLM
+PLP
+PLS
+PLT
+PMJ
+PMO
+PMV
+PNP
+PO3
+PO4
+POP
+POQ
+PP9
+PPV
+PQN
+PQQ
+PRP
+PRZ
+PS9
+PSU
+PT
+PTE
+PTG
+PTH
+PTI
+PTR
+PTY
+PUT
+PVE
+PXE
+PXP
+PXX
+PYB
+PYJ
+PYR
+Q21
+QHA
+QMR
+QNO
+QPS
+QPT
+QUI
+R3S
+R3X
+R4G
+R8G
+RAM
+RB
+RBF
+RCY
+RDE
+REA
+REC
+RER
+REZ
+RF1
+RF2
+RF3
+RHQ
+RI2
+RIS
+RJ1
+RJ6
+RMB
+RMD
+RMN
+RNR
+RPO
+RRG
+RS3
+RS7
+RST
+RU
+RU0
+RV1
+RX8
+S10
+S2C
+S45
+S60
+SAH
+SAL
+SAM
+SAR
+SAS
+SB1
+SB3
+SBB
+SBG
+SBR
+SBS
+SBX
+SCH
+SCN
+SCY
+SDS
+SEC
+SEP
+SER
+SF4
+SGC
+SIA
+SIG
+SIN
+SMA
+SMM
+SMN
+SNG
+SNS
+SO4
+SP2
+SPM
+SPO
+SQ
+SQD
+SR
+SRO
+ST9
+STE
+STF
+STU
+SU0
+SUC
+SW4
+SY9
+T08
+T21
+T3O
+T55
+T5E
+TAR
+TB
+TBE
+TC9
+TCE
+TDS
+TEO
+TEU
+TF1
+TF2
+TF3
+TF4
+TG1
+THA
+THG
+THM
+THP
+TIY
+TJF
+TL
+TLA
+TN1
+TNR
+TOP
+TP8
+TP9
+TPO
+TRC
+TRD
+TRE
+TRP
+TRS
+TRT
+TSL
+TSY
+TTB
+TUL
+TUX
+TWT
+TYD
+TYM
+TYR
+TZT
+U1
+U10
+U5P
+UBI
+UDP
+UMA
+UMK
+UMP
+UMQ
+UNK
+UNL
+UNX
+UO1
+UPE
+UPF
+UPG
+UQ
+URA
+URB
+URF
+UTP
+V11
+V37
+V38
+V63
+VDX
+VJP
+VLB
+VN4
+VO1
+VO2
+VO4
+VU2
+VU3
+VXL
+W07
+W12
+W14
+W23
+WBU
+WC1
+WO4
+WRA
+WV7
+WWV
+WWZ
+WXV
+X0J
+X1N
+XAN
+XCX
+XDH
+XE
+XFW
+XSN
+XX6
+XX7
+XY1
+XYP
+Y8L
+YB
+YCM
+YG
+YI2
+YI3
+YI4
+YL3
+YR4
+YS2
+YS3
+YS4
+YS5
+YSD
+YSE
+YSL
+YX0
+YYG
+ZBR
+ZCL
+ZLP
+ZN
+ZTP
+ZXG
+ZYJ
+ZYK
+ZZR
+ZZS
+THC
+
+
+==== ./lib/main.dart ====
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import './screens/splash_screen.dart';
+import './screens/login_screen.dart';
+import './screens/protein_search_screen.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Swifty Protein',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const SplashScreen(),
+        '/login': (context) => const LoginScreen(),
+        '/proteinSearch': (context) => const ProteinSearchScreen(),
+        // Supprime '/molecule3D' de la route
+      },
+    );
+  }
+}
+
+
+==== ./lib/models/atom.dart ====
+// lib/utils/pdb_parser.dart
+class Atom {
+  final int id;
+  final String type;
+  final double x;
+  final double y;
+  final double z;
+
+  Atom(this.id, this.type, this.x, this.y, this.z);
+}
+
+
+==== ./lib/models/bond.dart ====
+// lib/models/bond.dart
+class Bond {
+  final int startAtomId;
+  final int endAtomId;
+
+  Bond(this.startAtomId, this.endAtomId);
+}
+
+
+==== ./lib/models/ligand_detail.dart ====
+// lib/models/ligand_detail.dart
+class LigandDetail {
+  final String ligandCode;
+  final String chemCompId;
+  final String name;
+  final String formula;
+
+  LigandDetail({
+    required this.ligandCode,
+    required this.chemCompId,
+    required this.name,
+    required this.formula,
+  });
+}
+
+
+==== ./lib/screens/ligand_detail_screen.dart ====
+import 'package:flutter/material.dart';
+import 'package:swiftyprotein/screens/molecule_3d_view.dart';
+import '../services/rcsb_api_service.dart';
+import '../utils/logger.dart';
+import '../models/ligand_detail.dart'; // Import de LigandDetail
+
+class LigandDetailScreen extends StatefulWidget {
+  final String ligandCode;
+  const LigandDetailScreen({super.key, required this.ligandCode});
+
+  @override
+  State<LigandDetailScreen> createState() => _LigandDetailScreenState();
+}
+
+class _LigandDetailScreenState extends State<LigandDetailScreen> {
+  late Future<LigandDetail> futureLigandDetail;
+
+  @override
+  void initState() {
+    super.initState();
+    Logger.log(
+      "Initialisation de LigandDetailScreen pour le ligand: ${widget.ligandCode}",
+      tag: "LigandDetailScreen",
+    );
+    futureLigandDetail = RcsbApiService.fetchLigandDetailFromChemcomp(
+      widget.ligandCode,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("Détails du Ligand")),
+      body: FutureBuilder<LigandDetail>(
+        future: futureLigandDetail,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            Logger.log(
+              "Chargement des détails du ligand...",
+              tag: "LigandDetailScreen",
+            );
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            Logger.log(
+              "Erreur lors du chargement des détails: ${snapshot.error}",
+              tag: "LigandDetailScreen",
+            );
+            return Center(child: Text("Erreur: ${snapshot.error}"));
+          } else if (!snapshot.hasData) {
+            Logger.log(
+              "Aucun détail trouvé pour le ligand: ${widget.ligandCode}",
+              tag: "LigandDetailScreen",
+            );
+            return const Center(child: Text("Aucun détail trouvé"));
+          } else {
+            final ligand = snapshot.data!;
+            Logger.log(
+              "Détails du ligand récupérés: ${ligand.chemCompId} - ${ligand.name}",
+              tag: "LigandDetailScreen",
+            );
+            return Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Code: ${ligand.chemCompId}",
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    "Nom: ${ligand.name}",
+                    style: const TextStyle(fontSize: 18),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    "Formule/Description: ${ligand.formula}",
+                    style: const TextStyle(fontSize: 16),
+                  ),
+                  const SizedBox(height: 16),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Passer le ligandCode à l'écran 3D
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) => Molecule3DViewScreen(
+                                ligandCode: widget.ligandCode,
+                              ),
+                        ),
+                      );
+                    },
+                    child: const Text("Voir en 3D"),
+                  ),
+                ],
+              ),
+            );
+          }
+        },
+      ),
+    );
+  }
+}
+
+
+==== ./lib/screens/login_screen.dart ====
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import '../utils/logger.dart';
+import 'protein_search_screen.dart';
+
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
+  User? _user;
+
+  @override
+  void initState() {
+    super.initState();
+    _user = FirebaseAuth.instance.currentUser;
+  }
+
+  Future<void> _signInWithGoogle() async {
+    try {
+      Logger.log("🔵 Début du login Google", tag: "LOGIN");
+
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+      if (googleUser == null) {
+        Logger.log("🟠 L'utilisateur a annulé la connexion.", tag: "LOGIN");
+        return;
+      }
+
+      Logger.log(
+        "🟢 Google Sign-In réussi, récupération des credentials...",
+        tag: "LOGIN",
+      );
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
+
+      Logger.log("🟣 Création des credentials Firebase...", tag: "LOGIN");
+      final OAuthCredential credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
+
+      Logger.log("🟡 Envoi des credentials à Firebase...", tag: "LOGIN");
+      final UserCredential userCredential = await FirebaseAuth.instance
+          .signInWithCredential(credential);
+
+      Logger.log("✅ Connexion réussie !", tag: "LOGIN");
+      setState(() {
+        _user = userCredential.user;
+      });
+    } catch (e) {
+      Logger.log("❌ Erreur Google Sign-In : $e", tag: "LOGIN");
+    }
+  }
+
+  Future<void> _signOut() async {
+    await FirebaseAuth.instance.signOut();
+    await GoogleSignIn().signOut();
+    setState(() {
+      _user = null;
+    });
+    Logger.log("Utilisateur déconnecté", tag: "LOGIN");
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("Connexion")),
+      body: Center(
+        child:
+            _user == null
+                ? ElevatedButton(
+                  onPressed: _signInWithGoogle,
+                  child: const Text("Se connecter avec Google"),
+                )
+                : Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(
+                      backgroundImage:
+                          _user!.photoURL != null
+                              ? NetworkImage(_user!.photoURL!)
+                              : const AssetImage("assets/default_avatar.png")
+                                  as ImageProvider,
+                      radius: 40,
+                    ),
+                    const SizedBox(height: 16),
+                    Text(
+                      "Bienvenue, ${_user!.displayName ?? "Utilisateur"}",
+                      style: const TextStyle(fontSize: 18),
+                    ),
+                    const SizedBox(height: 16),
+                    ElevatedButton(
+                      onPressed: () {
+                        // Continuer vers l'écran de recherche
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ProteinSearchScreen(),
+                          ),
+                        );
+                      },
+                      child: const Text("Continuer"),
+                    ),
+                    const SizedBox(height: 8),
+                    ElevatedButton(
+                      onPressed: _signOut,
+                      child: const Text("Se déconnecter"),
+                    ),
+                  ],
+                ),
+      ),
+    );
+  }
+}
+
+
+==== ./lib/screens/molecule_3d_painter.dart ====
+// lib/widgets/molecule_3d_painter.dart
+import 'package:flutter/material.dart';
+import 'package:vector_math/vector_math_64.dart' as vm;
+import '../models/atom.dart';
+import '../models/bond.dart';
+
+class Molecule3DPainter extends CustomPainter {
+  final List<Atom> atoms;
+  final List<Bond> bonds;
+  final double rotationX; // en radians
+  final double rotationY; // en radians
+  final double zoom; // facteur de zoom
+
+  Molecule3DPainter({
+    required this.atoms,
+    required this.bonds,
+    required this.rotationX,
+    required this.rotationY,
+    required this.zoom,
+  });
+
+  // Map de couleurs CPK pour chaque type d'atome
+  final Map<String, Color> _atomColors = const {
+    'C': Colors.grey, // Carbone
+    'H': Colors.white, // Hydrogène
+    'O': Colors.red, // Oxygène
+    'N': Colors.blue, // Azote
+    'S': Colors.yellow, // Soufre
+    'P': Colors.orange, // Phosphore
+    // Ajouter d'autres types si nécessaire
+  };
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    // Créer et configurer la matrice 3D pour la transformation
+    final matrix =
+        vm.Matrix4.identity()
+          ..translate(size.width / 2, size.height / 2, 0)
+          ..scale(zoom, zoom, zoom)
+          ..rotateX(rotationX)
+          ..rotateY(rotationY);
+
+    // Distance de la caméra pour la perspective
+    const double perspective = 400.0;
+
+    // Fonction de projection 3D -> 2D
+    Offset project(vm.Vector3 point) {
+      final vm.Vector3 transformed = matrix.transform3(point);
+      final double factor = perspective / (perspective + transformed.z);
+      return Offset(transformed.x * factor, transformed.y * factor);
+    }
+
+    // Dessiner les liaisons en noir (ou gris foncé)
+    final Paint bondPaint =
+        Paint()
+          ..color = const Color.fromARGB(221, 82, 80, 80)
+          ..strokeWidth = 2.0;
+    for (var bond in bonds) {
+      final Atom atom1 = atoms[bond.startAtomId];
+      final Atom atom2 = atoms[bond.endAtomId];
+      final Offset p1 = project(vm.Vector3(atom1.x, atom1.y, atom1.z));
+      final Offset p2 = project(vm.Vector3(atom2.x, atom2.y, atom2.z));
+      canvas.drawLine(p1, p2, bondPaint);
+    }
+
+    // Dessiner les atomes avec leur couleur CPK
+    for (var atom in atoms) {
+      final Offset pos = project(vm.Vector3(atom.x, atom.y, atom.z));
+      // Récupérer la couleur correspondant au type d'atome ; par défaut, utiliser une couleur violette
+      final Color color = _atomColors[atom.type] ?? Colors.purple;
+      final Paint atomPaint = Paint()..color = color;
+
+      // Définir un rayon pour l'atome (vous pouvez adapter selon le type)
+      const double radius = 5.0;
+      canvas.drawCircle(pos, radius, atomPaint);
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant Molecule3DPainter oldDelegate) {
+    return oldDelegate.atoms != atoms ||
+        oldDelegate.bonds != bonds ||
+        oldDelegate.rotationX != rotationX ||
+        oldDelegate.rotationY != rotationY ||
+        oldDelegate.zoom != zoom;
+  }
+}
+
+
+==== ./lib/screens/molecule_3d_view.dart ====
+import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart'; // Ajout de l'import pour Shimmer
+import '../models/atom.dart';
+import '../models/bond.dart';
+import '../models/ligand_detail.dart';
+import '../services/rcsb_api_service.dart';
+import '../services/pdb_parser.dart';
+import '../utils/logger.dart';
+import '../widgets/interactive_molecule_view.dart';
+
+class Molecule3DViewScreen extends StatefulWidget {
+  final String ligandCode;
+
+  const Molecule3DViewScreen({super.key, required this.ligandCode});
+
+  @override
+  State<Molecule3DViewScreen> createState() => _Molecule3DViewScreenState();
+}
+
+class _Molecule3DViewScreenState extends State<Molecule3DViewScreen> {
+  List<Atom>? atoms;
+  List<Bond>? bonds;
+  bool isLoading = true;
+  String? errorMessage;
+  String? sdfContent;
+  LigandDetail? ligandDetail;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSDF();
+  }
+
+  Future<void> _loadSDF() async {
+    try {
+      LigandDetail detail = await RcsbApiService.fetchLigandDetailFromChemcomp(
+        widget.ligandCode,
+      );
+      setState(() {
+        ligandDetail = detail;
+      });
+
+      sdfContent = await RcsbApiService.fetchIdealSdfFile(widget.ligandCode);
+      Logger.log(
+        "Contenu téléchargé du fichier SDF: ${sdfContent!.substring(0, 100)}...",
+      );
+
+      List<Atom> atomsParsed = SdfParser.parseAtoms(sdfContent!);
+      List<Bond> bondsParsed = SdfParser.parseBonds(sdfContent!);
+
+      Logger.log("Atomes extraits: ${atomsParsed.length} atomes trouvés");
+      Logger.log("Liaisons extraites: ${bondsParsed.length} liaisons trouvées");
+
+      setState(() {
+        atoms = atomsParsed;
+        bonds = bondsParsed;
+        isLoading = false;
+      });
+    } catch (e) {
+      Logger.log(
+        "Erreur lors du téléchargement du fichier SDF: $e",
+        tag: "Molecule3DViewScreen",
+      );
+      setState(() {
+        errorMessage = "Erreur: $e";
+        isLoading = false;
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black, // Fond noir
+      appBar: AppBar(
+        title: Text(
+          "Visualisation 3D: ${widget.ligandCode}",
+          style: const TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.grey[900],
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
+      body:
+          isLoading
+              ? Shimmer.fromColors(
+                baseColor: Colors.grey[300]!,
+                highlightColor: Colors.white,
+                child: const Center(child: CircularProgressIndicator()),
+              ) // Animation de shimmer
+              : errorMessage != null
+              ? Center(
+                child: Text(
+                  errorMessage!,
+                  style: const TextStyle(color: Colors.red),
+                ),
+              )
+              : (atoms != null && bonds != null && ligandDetail != null)
+              ? InteractiveMoleculeView(
+                atoms: atoms!,
+                bonds: bonds!,
+                ligandDetail: ligandDetail!,
+              )
+              : const Center(
+                child: Text(
+                  "Aucune donnée disponible",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+    );
+  }
+}
+
+
+==== ./lib/screens/protein_search_screen.dart ====
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import '../utils/logger.dart';
+import 'ligand_detail_screen.dart';
+
+class ProteinSearchScreen extends StatefulWidget {
+  const ProteinSearchScreen({super.key});
+
+  @override
+  State<ProteinSearchScreen> createState() => _ProteinSearchScreenState();
+}
+
+class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
+  List<String> ligandCodes = [];
+
+  @override
+  void initState() {
+    super.initState();
+    Logger.log(
+      "Initialisation de ProteinSearchScreen",
+      tag: "ProteinSearchScreen",
+    );
+    loadLigandCodes();
+  }
+
+  // Charge le fichier texte et extrait les codes (un code par ligne)
+  Future<void> loadLigandCodes() async {
+    try {
+      final String data = await rootBundle.loadString('lib/ligands.txt');
+      final List<String> codes =
+          data
+              .split('\n')
+              .map((line) => line.trim())
+              .where((line) => line.isNotEmpty)
+              .toList();
+      Logger.log("Codes chargés: ${codes.length}", tag: "ProteinSearchScreen");
+      setState(() {
+        ligandCodes = codes;
+      });
+    } catch (e) {
+      Logger.log(
+        "Erreur lors du chargement des codes de ligands: $e",
+        tag: "ProteinSearchScreen",
+      );
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("Recherche de Ligands")),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child:
+            ligandCodes.isEmpty
+                ? const Center(child: CircularProgressIndicator())
+                : Autocomplete<String>(
+                  optionsBuilder: (TextEditingValue textEditingValue) {
+                    if (textEditingValue.text.isEmpty) {
+                      return const Iterable<String>.empty();
+                    }
+                    return ligandCodes.where(
+                      (String option) => option.toLowerCase().contains(
+                        textEditingValue.text.toLowerCase(),
+                      ),
+                    );
+                  },
+                  onSelected: (String selection) {
+                    Logger.log(
+                      "Vous avez sélectionné: $selection",
+                      tag: "ProteinSearchScreen",
+                    );
+                    if (!mounted) return;
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text("Sélectionné: $selection")),
+                    );
+                    if (!mounted) return;
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (context) =>
+                                LigandDetailScreen(ligandCode: selection),
+                      ),
+                    );
+                  },
+                  fieldViewBuilder: (
+                    BuildContext context,
+                    TextEditingController textEditingController,
+                    FocusNode focusNode,
+                    VoidCallback onFieldSubmitted,
+                  ) {
+                    return TextField(
+                      controller: textEditingController,
+                      focusNode: focusNode,
+                      decoration: const InputDecoration(
+                        labelText: "Entrez un code de ligand",
+                        border: OutlineInputBorder(),
+                      ),
+                    );
+                  },
+                  optionsViewBuilder: (
+                    BuildContext context,
+                    AutocompleteOnSelected<String> onSelected,
+                    Iterable<String> options,
+                  ) {
+                    return Align(
+                      alignment: Alignment.topLeft,
+                      child: Material(
+                        child: Container(
+                          width: MediaQuery.of(context).size.width - 32,
+                          color: Colors.white,
+                          child: ListView.builder(
+                            padding: const EdgeInsets.all(8.0),
+                            itemCount: options.length,
+                            itemBuilder: (BuildContext context, int index) {
+                              final String option = options.elementAt(index);
+                              return ListTile(
+                                title: Text(option),
+                                onTap: () {
+                                  onSelected(option);
+                                },
+                              );
+                            },
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+      ),
+    );
+  }
+}
+
+
+==== ./lib/screens/splash_screen.dart ====
+import 'package:flutter/material.dart';
+import '../utils/logger.dart';
+import 'login_screen.dart';
+
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    // Attendre 2 secondes avant de rediriger vers LoginScreen
+    Future.delayed(const Duration(seconds: 2), () {
+      Logger.log(
+        "Redirection vers LoginScreen depuis SplashScreen",
+        tag: "SPLASH",
+      );
+      if (!mounted) return;
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const LoginScreen()),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(body: Center(child: CircularProgressIndicator()));
+  }
+}
+
+
+==== ./lib/services/pdb_parser.dart ====
+import '../models/atom.dart';
+import '../models/bond.dart';
+import '../utils/logger.dart';
+
+class SdfParser {
+  /// Parse la section atomes du fichier SDF
+  static List<Atom> parseAtoms(String sdfContent) {
+    List<String> lines = sdfContent.split('\n');
+    if (lines.length < 4) {
+      Logger.log(
+        "Fichier SDF trop court pour contenir la ligne de compte.",
+        tag: "SDF_PARSER",
+      );
+      return [];
+    }
+
+    // La quatrième ligne (index 3) est la ligne de compte
+    String countsLine = lines[3];
+    // Les 3 premiers caractères indiquent le nombre d'atomes
+    int numAtoms = int.tryParse(countsLine.substring(0, 3).trim()) ?? 0;
+
+    Logger.log(
+      "Nombre d'atomes indiqué dans le fichier : $numAtoms",
+      tag: "SDF_PARSER",
+    );
+
+    List<Atom> atoms = [];
+    // Les atomes se trouvent à partir de la ligne 5 (index 4)
+    for (int i = 4; i < 4 + numAtoms && i < lines.length; i++) {
+      String line = lines[i];
+      try {
+        double x = double.parse(line.substring(0, 10).trim());
+        double y = double.parse(line.substring(10, 20).trim());
+        double z = double.parse(line.substring(20, 30).trim());
+        // La colonne 32-34 contient le symbole de l'atome (en 1-indexé, c'est en fait positions 31 à 33 en 0-indexé)
+        String symbol = line.substring(31, 34).trim();
+        // L'index des atomes sera leur ordre d'apparition (0-indexé)
+        atoms.add(Atom(i - 4, symbol, x, y, z));
+      } catch (e) {
+        Logger.log(
+          "Erreur de parsing d'une ligne d'atome (ligne ${i + 1}) : $line",
+          tag: "SDF_PARSER",
+        );
+      }
+    }
+    return atoms;
+  }
+
+  /// Parse la section liaisons du fichier SDF
+  static List<Bond> parseBonds(String sdfContent) {
+    List<String> lines = sdfContent.split('\n');
+    if (lines.length < 4) {
+      Logger.log(
+        "Fichier SDF trop court pour contenir la ligne de compte.",
+        tag: "SDF_PARSER",
+      );
+      return [];
+    }
+
+    String countsLine = lines[3];
+    int numAtoms = int.tryParse(countsLine.substring(0, 3).trim()) ?? 0;
+    int numBonds = int.tryParse(countsLine.substring(3, 6).trim()) ?? 0;
+
+    Logger.log(
+      "Nombre de liaisons indiqué dans le fichier : $numBonds",
+      tag: "SDF_PARSER",
+    );
+
+    List<Bond> bonds = [];
+    // Les liaisons se trouvent après la section des atomes
+    int bondStartIndex = 4 + numAtoms;
+    for (
+      int i = bondStartIndex;
+      i < bondStartIndex + numBonds && i < lines.length;
+      i++
+    ) {
+      String line = lines[i];
+      try {
+        // Dans le format Molfile, les 3 premiers caractères donnent l'indice du premier atome
+        // et les 3 suivants l'indice du second atome (les indices sont 1-indexés)
+        int a1 = int.tryParse(line.substring(0, 3).trim()) ?? 0;
+        int a2 = int.tryParse(line.substring(3, 6).trim()) ?? 0;
+        // Conversion en index 0-based
+        bonds.add(Bond(a1 - 1, a2 - 1));
+        Logger.log(
+          "Liaison ajoutée : Atome $a1 lié à Atome $a2",
+          tag: "SDF_PARSER",
+        );
+      } catch (e) {
+        Logger.log(
+          "Erreur de parsing d'une ligne de liaison (ligne ${i + 1}) : $line",
+          tag: "SDF_PARSER",
+        );
+      }
+    }
+    Logger.log(
+      "Nombre de liaisons extraites : ${bonds.length}",
+      tag: "SDF_PARSER",
+    );
+    return bonds;
+  }
+}
+
+
+==== ./lib/services/rcsb_api_service.dart ====
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import '../utils/logger.dart';
+import '../models/ligand_detail.dart';
+
+class RcsbApiService {
+  /// Récupère les détails du ligand et son identifiant PDB complet
+  static Future<LigandDetail> fetchLigandDetailFromChemcomp(
+    String ligandCode,
+  ) async {
+    final code = ligandCode.toUpperCase();
+    Logger.log("Appel API RCSB pour le ligand: $code", tag: "RCSB_API");
+
+    // URL pour obtenir les détails du ligand via l'API RCSB
+    final url = 'https://data.rcsb.org/rest/v1/core/chemcomp/$code';
+    final response = await http.get(Uri.parse(url));
+
+    if (response.statusCode == 200) {
+      final jsonData = json.decode(response.body);
+      final chemComp = jsonData["chem_comp"];
+      final name = chemComp?["name"] ?? "Nom inconnu";
+      final formula = chemComp?["formula"] ?? "Formule inconnue";
+
+      return LigandDetail(
+        ligandCode: code,
+        name: name,
+        formula: formula,
+        chemCompId: chemComp?["id"] ?? "ID inconnu",
+      );
+    } else {
+      Logger.log(
+        "Erreur HTTP ${response.statusCode} pour le chemcomp: $code",
+        tag: "RCSB_API",
+      );
+      throw Exception(
+        "Erreur HTTP ${response.statusCode} pour le chemcomp: $code",
+      );
+    }
+  }
+
+  /// Télécharge le fichier PDB du ligand en utilisant son ID PDB
+  static Future<String> fetchIdealSdfFile(String ligandCode) async {
+    final code = ligandCode.toUpperCase();
+    final url = 'https://files.rcsb.org/ligands/download/${code}_ideal.sdf';
+    Logger.log("🔍 Téléchargement du fichier SDF idéal: $url", tag: "RCSB_API");
+
+    final response = await http.get(Uri.parse(url));
+
+    if (response.statusCode == 200) {
+      Logger.log(
+        "Fichier SDF téléchargé avec succès, taille : ${response.body.length} octets",
+        tag: "RCSB_API",
+      );
+      Logger.log(
+        "Contenu du fichier SDF : ${response.body.substring(0, 100)}...",
+      ); // Affiche les 100 premiers caractères du fichier
+      return response.body; // Retourne le contenu du fichier SDF
+    } else {
+      Logger.log(
+        "Erreur HTTP ${response.statusCode} lors du téléchargement du fichier SDF",
+        tag: "RCSB_API",
+      );
+      throw Exception('Erreur lors du téléchargement du fichier SDF');
+    }
+  }
+}
+
+
+==== ./lib/utils/logger.dart ====
+import 'dart:developer' as dev;
+
+/// CLASSE LOGGER : CENTRALISE TOUTES LES OPÉRATIONS DE LOG
+///
+/// UTILISATION : Appeler Logger.log('votre message', tag: 'TAG_OPTIONNEL');
+class Logger {
+  /// Log un message en affichant à la fois via [dev.log] et [print].
+  ///
+  /// [message] : Le message à loguer.
+  /// [tag] : Une étiquette pour identifier l'origine du log.
+  static void log(String message, {String tag = 'APP'}) {
+    // Affiche le log dans la console de débogage
+    dev.log(message, name: tag);
+    // Pour s'assurer que le log est visible dans le terminal
+    // (en mode debug, [print] est généralement visible)
+    print("[$tag] $message");
+  }
+}
+
+
+==== ./lib/widgets/interactive_molecule_renderer.dart ====
+import 'package:flutter/material.dart';
+import 'package:vector_math/vector_math_64.dart' as vm;
+import 'molecule_renderer.dart'; // Assurez-vous que ce fichier est correct et accessible
+import '../models/atom.dart';
+import '../models/bond.dart';
+
+class InteractiveMoleculeRenderer extends StatefulWidget {
+  final List<Atom> atoms;
+  final List<Bond> bonds;
+
+  const InteractiveMoleculeRenderer({
+    super.key,
+    required this.atoms,
+    required this.bonds,
+  });
+
+  @override
+  State<InteractiveMoleculeRenderer> createState() =>
+      _InteractiveMoleculeRendererState();
+}
+
+class _InteractiveMoleculeRendererState
+    extends State<InteractiveMoleculeRenderer> {
+  final vm.Vector3 _rotation = vm.Vector3.zero();
+  double _scale = 1.0;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      // Utilisation d'un seul gestionnaire pour le scale qui inclut la rotation
+      onScaleUpdate: (ScaleUpdateDetails details) {
+        setState(() {
+          _scale = details.scale;
+          // Incrémente la rotation autour de l'axe Y (vous pouvez ajuster la sensibilité ici)
+          _rotation.y += details.rotation;
+        });
+      },
+      child: CustomPaint(
+        painter: MoleculePainter(
+          atoms: widget.atoms,
+          bonds: widget.bonds,
+          rotation: _rotation,
+          scale: _scale,
+        ),
+        child: Container(),
+      ),
+    );
+  }
+}
+
+
+==== ./lib/widgets/interactive_molecule_view.dart ====
+import 'package:flutter/material.dart';
+import '../models/atom.dart';
+import '../models/bond.dart';
+import '../models/ligand_detail.dart';
+import '../screens/molecule_3d_painter.dart';
+
+class InteractiveMoleculeView extends StatefulWidget {
+  final List<Atom> atoms;
+  final List<Bond> bonds;
+  final LigandDetail ligandDetail;
+
+  const InteractiveMoleculeView({
+    super.key,
+    required this.atoms,
+    required this.bonds,
+    required this.ligandDetail,
+  });
+
+  @override
+  State<InteractiveMoleculeView> createState() =>
+      _InteractiveMoleculeViewState();
+}
+
+class _InteractiveMoleculeViewState extends State<InteractiveMoleculeView> {
+  // Rotation et zoom initiaux
+  final double _rotationX = 0;
+  double _rotationY = 0;
+  double _zoom = 10.0;
+
+  // Incréments pour les boutons
+  final double _zoomIncrement = 0.7;
+  final double _rotationIncrement = 0.1;
+
+  bool _showTooltip = false;
+
+  void _toggleTooltip() {
+    setState(() {
+      _showTooltip = !_showTooltip;
+    });
+  }
+
+  void _zoomIn() {
+    setState(() {
+      _zoom += _zoomIncrement;
+    });
+  }
+
+  void _zoomOut() {
+    setState(() {
+      _zoom = (_zoom - _zoomIncrement).clamp(0.1, double.infinity);
+    });
+  }
+
+  void _rotateLeft() {
+    setState(() {
+      _rotationY -= _rotationIncrement;
+    });
+  }
+
+  void _rotateRight() {
+    setState(() {
+      _rotationY += _rotationIncrement;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        // Zone de rendu 3D avec le tooltip en overlay
+        Expanded(
+          child: Stack(
+            children: [
+              GestureDetector(
+                onTap: _toggleTooltip,
+                child: CustomPaint(
+                  size: Size.infinite,
+                  painter: Molecule3DPainter(
+                    atoms: widget.atoms,
+                    bonds: widget.bonds,
+                    rotationX: _rotationX,
+                    rotationY: _rotationY,
+                    zoom: _zoom,
+                  ),
+                ),
+              ),
+              if (_showTooltip)
+                Positioned(
+                  top: 20,
+                  left: 20,
+                  right: 20,
+                  child: Material(
+                    color: Colors.black.withAlpha((0.7 * 255).toInt()),
+                    borderRadius: BorderRadius.circular(8),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Code: ${widget.ligandDetail.chemCompId}\n'
+                        'Nom: ${widget.ligandDetail.name}\n'
+                        'Formule: ${widget.ligandDetail.formula}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+        // Boutons de contrôle placés en bas
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Wrap(
+            alignment: WrapAlignment.center,
+            spacing: 16,
+            children: [
+              ElevatedButton(
+                onPressed: _rotateLeft,
+                child: const Text("Rot. Gauche"),
+              ),
+              ElevatedButton(
+                onPressed: _rotateRight,
+                child: const Text("Rot. Droite"),
+              ),
+              ElevatedButton(onPressed: _zoomIn, child: const Text("Zoom +")),
+              ElevatedButton(onPressed: _zoomOut, child: const Text("Zoom -")),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+
+==== ./lib/widgets/molecule_renderer.dart ====
+import 'package:flutter/material.dart';
+import 'package:vector_math/vector_math_64.dart' as vm;
+import '../models/atom.dart';
+import '../models/bond.dart';
+
+class MoleculePainter extends CustomPainter {
+  final List<Atom> atoms;
+  final List<Bond> bonds;
+  final vm.Vector3 rotation;
+  final double scale;
+
+  MoleculePainter({
+    required this.atoms,
+    required this.bonds,
+    required this.rotation,
+    required this.scale,
+  });
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    // Centre le canvas
+    canvas.translate(size.width / 2, size.height / 2);
+
+    // Applique l'échelle
+    canvas.scale(scale, scale);
+
+    // Applique la rotation sur l'axe Y (dans le plan)
+    canvas.rotate(rotation.y);
+
+    // Exemple de dessin des atomes
+    Paint atomPaint = Paint()..color = Colors.blue;
+    for (var atom in atoms) {
+      // Ajustez le rayon et la conversion des coordonnées selon vos besoins
+      canvas.drawCircle(Offset(atom.x, atom.y), 5.0, atomPaint);
+    }
+
+    // Exemple de dessin des liaisons
+    Paint bondPaint =
+        Paint()
+          ..color = Colors.grey
+          ..strokeWidth = 2.0;
+    for (var bond in bonds) {
+      Atom atom1 = atoms[bond.startAtomId];
+      Atom atom2 = atoms[bond.endAtomId];
+      canvas.drawLine(
+        Offset(atom1.x, atom1.y),
+        Offset(atom2.x, atom2.y),
+        bondPaint,
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant MoleculePainter oldDelegate) {
+    return oldDelegate.atoms != atoms ||
+        oldDelegate.bonds != bonds ||
+        oldDelegate.rotation != rotation ||
+        oldDelegate.scale != scale;
+  }
+}
+
+

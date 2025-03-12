@@ -11,7 +11,7 @@ plugins {
 android {
     // !!! IMPORTANT : MODIFIER LE NAMESPACE POUR CHAQUE NOUVEAU PROJET !!!
     namespace = "com.example.swiftyprotein"
-    compileSdk = 34 // !!! IMPORTANT : VÉRIFIER ET METTRE À JOUR LA COMPILE SDK SI BESOIN.
+    compileSdk = 35 // !!! IMPORTANT : VÉRIFIER ET METTRE À JOUR LA COMPILE SDK SI BESOIN.
     ndkVersion = "27.0.12077973"
 
     compileOptions {

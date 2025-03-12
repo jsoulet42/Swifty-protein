@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:shimmer/shimmer.dart';
 import '../utils/logger.dart';
 import 'ligand_detail_screen.dart';
 
@@ -10,20 +11,39 @@ class ProteinSearchScreen extends StatefulWidget {
   State<ProteinSearchScreen> createState() => _ProteinSearchScreenState();
 }
 
-class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
+class _ProteinSearchScreenState extends State<ProteinSearchScreen>
+    with WidgetsBindingObserver {
   List<String> ligandCodes = [];
+  bool isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    Logger.log(
-      "Initialisation de ProteinSearchScreen",
-      tag: "ProteinSearchScreen",
-    );
+    WidgetsBinding.instance.addObserver(this);
     loadLigandCodes();
   }
 
-  // Charge le fichier texte et extrait les codes (un code par ligne)
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      Logger.log(
+        "Application revenue au premier plan - rechargement de la liste",
+        tag: "APP_LIFECYCLE",
+      );
+      Future.delayed(const Duration(milliseconds: 100), () {
+        if (mounted) {
+          loadLigandCodes();
+        }
+      });
+    }
+  }
+
   Future<void> loadLigandCodes() async {
     try {
       final String data = await rootBundle.loadString('lib/ligands.txt');
@@ -33,15 +53,21 @@ class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
               .map((line) => line.trim())
               .where((line) => line.isNotEmpty)
               .toList();
-      Logger.log("Codes chargés: ${codes.length}", tag: "ProteinSearchScreen");
+
+      if (!mounted) return;
       setState(() {
         ligandCodes = codes;
+        isLoading = false;
       });
     } catch (e) {
       Logger.log(
         "Erreur lors du chargement des codes de ligands: $e",
         tag: "ProteinSearchScreen",
       );
+      if (!mounted) return;
+      setState(() {
+        isLoading = false;
+      });
     }
   }
 
@@ -52,8 +78,57 @@ class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child:
-            ligandCodes.isEmpty
-                ? const Center(child: CircularProgressIndicator())
+            isLoading
+                ? Center(
+                  child: SizedBox(
+                    width: 200,
+                    height: 200,
+                    child: Stack(
+                      children: [
+                        // IMAGE DE FOND (VISIBLE)
+                        Positioned.fill(
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(20),
+                            child: Image.asset(
+                              "assets/imagebackG.png",
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+
+                        // EFFET SHIMMER (SANS withOpacity)
+                        Positioned.fill(
+                          child: Shimmer.fromColors(
+                            baseColor: Colors.grey[300]!,
+                            highlightColor: Colors.white,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(20),
+                                gradient: LinearGradient(
+                                  colors: [
+                                    Colors.white.withAlpha(
+                                      10,
+                                    ), // Lumière shimmer
+                                    Colors.grey[300]!,
+                                  ],
+                                  begin: Alignment.topLeft,
+                                  end: Alignment.bottomRight,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
+                : ligandCodes.isEmpty
+                ? const Center(
+                  child: Text(
+                    "Aucun ligand disponible",
+                    style: TextStyle(fontSize: 18, color: Colors.grey),
+                  ),
+                )
                 : Autocomplete<String>(
                   optionsBuilder: (TextEditingValue textEditingValue) {
                     if (textEditingValue.text.isEmpty) {
@@ -67,14 +142,9 @@ class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
                   },
                   onSelected: (String selection) {
                     Logger.log(
-                      "Vous avez sélectionné: $selection",
+                      "Sélectionné: $selection",
                       tag: "ProteinSearchScreen",
                     );
-                    if (!mounted) return;
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text("Sélectionné: $selection")),
-                    );
-                    if (!mounted) return;
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -96,34 +166,6 @@ class _ProteinSearchScreenState extends State<ProteinSearchScreen> {
                       decoration: const InputDecoration(
                         labelText: "Entrez un code de ligand",
                         border: OutlineInputBorder(),
-                      ),
-                    );
-                  },
-                  optionsViewBuilder: (
-                    BuildContext context,
-                    AutocompleteOnSelected<String> onSelected,
-                    Iterable<String> options,
-                  ) {
-                    return Align(
-                      alignment: Alignment.topLeft,
-                      child: Material(
-                        child: Container(
-                          width: MediaQuery.of(context).size.width - 32,
-                          color: Colors.white,
-                          child: ListView.builder(
-                            padding: const EdgeInsets.all(8.0),
-                            itemCount: options.length,
-                            itemBuilder: (BuildContext context, int index) {
-                              final String option = options.elementAt(index);
-                              return ListTile(
-                                title: Text(option),
-                                onTap: () {
-                                  onSelected(option);
-                                },
-                              );
-                            },
-                          ),
-                        ),
                       ),
                     );
                   },

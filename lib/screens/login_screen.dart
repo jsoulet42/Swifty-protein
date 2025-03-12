@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:local_auth/local_auth.dart'; // Import pour l'authentification biométrique
 import '../utils/logger.dart';
 import 'protein_search_screen.dart';
 
@@ -12,6 +13,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  final LocalAuthentication auth = LocalAuthentication();
   User? _user;
 
   @override
@@ -20,6 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
     _user = FirebaseAuth.instance.currentUser;
   }
 
+  /// 🔹 Connexion avec Google
   Future<void> _signInWithGoogle() async {
     try {
       Logger.log("🔵 Début du login Google", tag: "LOGIN");
@@ -51,11 +54,44 @@ class _LoginScreenState extends State<LoginScreen> {
       setState(() {
         _user = userCredential.user;
       });
+
+      _navigateToHome();
     } catch (e) {
       Logger.log("❌ Erreur Google Sign-In : $e", tag: "LOGIN");
     }
   }
 
+  /// 🔹 Connexion avec empreinte digitale
+  Future<void> _authenticateWithBiometrics() async {
+    try {
+      bool isAvailable = await auth.canCheckBiometrics;
+      bool isAuthenticated = false;
+
+      if (isAvailable) {
+        isAuthenticated = await auth.authenticate(
+          localizedReason:
+              "Veuillez scanner votre empreinte digitale pour vous connecter.",
+          options: const AuthenticationOptions(
+            stickyAuth:
+                true, // Permet de garder l'authentification active même après l'écran de verrouillage
+            biometricOnly:
+                true, // Utiliser uniquement les biométriques (pas de code PIN)
+          ),
+        );
+      }
+
+      if (isAuthenticated) {
+        Logger.log("🔑 Authentification biométrique réussie", tag: "LOGIN");
+        _navigateToHome();
+      } else {
+        Logger.log("❌ Authentification biométrique échouée", tag: "LOGIN");
+      }
+    } catch (e) {
+      Logger.log("❌ Erreur d'authentification biométrique : $e", tag: "LOGIN");
+    }
+  }
+
+  /// 🔹 Déconnexion
   Future<void> _signOut() async {
     await FirebaseAuth.instance.signOut();
     await GoogleSignIn().signOut();
@@ -65,6 +101,14 @@ class _LoginScreenState extends State<LoginScreen> {
     Logger.log("Utilisateur déconnecté", tag: "LOGIN");
   }
 
+  /// 🔹 Navigation vers l'écran principal après connexion
+  void _navigateToHome() {
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const ProteinSearchScreen()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,9 +116,19 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Center(
         child:
             _user == null
-                ? ElevatedButton(
-                  onPressed: _signInWithGoogle,
-                  child: const Text("Se connecter avec Google"),
+                ? Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton(
+                      onPressed: _signInWithGoogle,
+                      child: const Text("Se connecter avec Google"),
+                    ),
+                    const SizedBox(height: 16),
+                    ElevatedButton(
+                      onPressed: _authenticateWithBiometrics,
+                      child: const Text("Se connecter avec empreinte digitale"),
+                    ),
+                  ],
                 )
                 : Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -94,15 +148,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 16),
                     ElevatedButton(
-                      onPressed: () {
-                        // Continuer vers l'écran de recherche
-                        Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const ProteinSearchScreen(),
-                          ),
-                        );
-                      },
+                      onPressed: _navigateToHome,
                       child: const Text("Continuer"),
                     ),
                     const SizedBox(height: 8),
